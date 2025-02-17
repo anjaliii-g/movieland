@@ -14,7 +14,7 @@
 - API- TMDB API for fetching movies
 
 # Setup & installation
-- git clone<https://github.com/anjaliii-g/movieland/movie-brower.git>
+- git clone<https://github.com/anjaliii-g/movieland.git>
 - cd movie-browser
 - npm install
 - npm start- App will start on http://localhost:3000
