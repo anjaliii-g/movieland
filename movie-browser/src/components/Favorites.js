@@ -4,7 +4,7 @@ import MovieList from './MovieList';
 const Favorites = ({ favorites, toggleFavorite }) => {
   return (
     <div>
-      <h2 className="text-2xl font-bold mt-4 mb-2">Favorite Movies</h2>
+      <h2 className="text-2xl text-center font-bold pt-2 mb-2">Favorite Movies ❤️</h2>
       {favorites.length > 0 ? (
         <MovieList movies={favorites} toggleFavorite={toggleFavorite} favorites={favorites} />
       ) : (

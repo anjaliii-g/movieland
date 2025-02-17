@@ -82,8 +82,8 @@ const App = () => {
 
           {/* Header Navigation */}
           <div className="bg-gray-800 text-white py-2  flex justify-center">
-            <Link to="/" className="mx-2 bg-gray-600 px-3 py-1 rounded-full hover:bg-gray-500 transition">Home</Link>
-            <Link to="/favorites" className="mx-2 bg-gray-600 px-3 py-1 rounded-full hover:bg-gray-500 transition">Favorites</Link>
+            <Link href="#home" to="/" className="mx-2 bg-gray-600 px-3 py-1 rounded-full hover:bg-gray-500 transition">Home</Link>
+            <Link  href="#favourites" to="/favorites" className="mx-2 bg-gray-600 px-3 py-1 rounded-full hover:bg-gray-500 transition">Favorites</Link>
           </div>
       </div>
       
